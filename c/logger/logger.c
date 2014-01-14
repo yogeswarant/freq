@@ -3,7 +3,7 @@
 #include "logger.h"
 
 /*
- * Util function to print to stdout when verbose flag is set
+ * Util function to print to stdout 
  */
 int debug(char *file, char *function, int line, char *fmt, ...)
 {
@@ -17,7 +17,7 @@ int debug(char *file, char *function, int line, char *fmt, ...)
 }
 
 /*
- * Util function to print to stderr when verbose flag is set
+ * Util function to print to stderr 
  */
 int error(char *file, char *function, int line, char *fmt, ...)
 {
